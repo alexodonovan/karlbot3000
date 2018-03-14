@@ -1,0 +1,28 @@
+{
+  "name": "karlbot3000",
+  "version": "1.0.0",
+  "description": "Chat bot for form data entry",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexodonovan/karlbot3000.git"
+  },
+  "keywords": [
+    "chatbot",
+    "karl",
+    "test"
+  ],
+  "author": "alexodonovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexodonovan/karlbot3000/issues"
+  },
+  "homepage": "https://github.com/alexodonovan/karlbot3000#readme",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "restify": "^6.3.4"
+  }
+}
