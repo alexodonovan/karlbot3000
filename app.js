@@ -1,5 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+var questions = require('./questions/questions');
 
 // Setup Restify Server
 var server = restify.createServer();
@@ -20,9 +21,9 @@ server.post('/api/messages', connector.listen());
 var bot = new builder.UniversalBot(connector, [
     function (session) {
         session.send('Every great business started with an idea');
-        return session.beginDialog('questions');
+        return session.beginDialog('market');
     }
 ]);
 
-bot.dialog('questions', require('./questions'));
+bot.dialog('market', questions.market);
 // bot.dialog('')
