@@ -23,6 +23,7 @@
   "homepage": "https://github.com/alexodonovan/karlbot3000#readme",
   "dependencies": {
     "botbuilder": "^3.14.0",
+    "jshint": "^2.9.5",
     "restify": "^6.3.4"
   }
 }

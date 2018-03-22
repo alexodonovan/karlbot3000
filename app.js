@@ -26,4 +26,3 @@ var bot = new builder.UniversalBot(connector, [
 ]);
 
 bot.dialog('market', questions.market);
-// bot.dialog('')
